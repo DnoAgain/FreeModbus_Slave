@@ -1,0 +1,43 @@
+--cpu Cortex-M3 --library_type=microlib --scatter "d:/Work/stm32f1x/RS485_HMI/build/RS485_HMI/RS485_HMI.sct" --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
+--list .\build\RS485_HMI\RS485_HMI.map
+.\build\RS485_HMI\Core\Src\gpio.o
+.\build\RS485_HMI\Core\Src\main.o
+.\build\RS485_HMI\Core\Src\stm32f1xx_hal_msp.o
+.\build\RS485_HMI\Core\Src\stm32f1xx_it.o
+.\build\RS485_HMI\Core\Src\system_stm32f1xx.o
+.\build\RS485_HMI\Core\Src\time.o
+.\build\RS485_HMI\Core\Src\usart.o
+.\build\RS485_HMI\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o
+.\build\RS485_HMI\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
+.\build\RS485_HMI\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
+.\build\RS485_HMI\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.o
+.\build\RS485_HMI\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.o
+.\build\RS485_HMI\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.o
+.\build\RS485_HMI\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o
+.\build\RS485_HMI\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.o
+.\build\RS485_HMI\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.o
+.\build\RS485_HMI\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
+.\build\RS485_HMI\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o
+.\build\RS485_HMI\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
+.\build\RS485_HMI\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o
+.\build\RS485_HMI\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
+.\build\RS485_HMI\HARDWARE\LED\led.o
+.\build\RS485_HMI\HARDWARE\delay\delay.o
+.\build\RS485_HMI\HARDWARE\sys\sys.o
+.\build\RS485_HMI\Modbus\Src\mb.o
+.\build\RS485_HMI\Modbus\Src\mbascii.o
+.\build\RS485_HMI\Modbus\Src\mbcrc.o
+.\build\RS485_HMI\Modbus\Src\mbfunccoils.o
+.\build\RS485_HMI\Modbus\Src\mbfuncdiag.o
+.\build\RS485_HMI\Modbus\Src\mbfuncdisc.o
+.\build\RS485_HMI\Modbus\Src\mbfuncholding.o
+.\build\RS485_HMI\Modbus\Src\mbfuncinput.o
+.\build\RS485_HMI\Modbus\Src\mbfuncother.o
+.\build\RS485_HMI\Modbus\Src\mbrtu.o
+.\build\RS485_HMI\Modbus\Src\mbtcp.o
+.\build\RS485_HMI\Modbus\Src\mbutils.o
+.\build\RS485_HMI\Modbus\Src\port.o
+.\build\RS485_HMI\Modbus\Src\portevent.o
+.\build\RS485_HMI\Modbus\Src\portserial.o
+.\build\RS485_HMI\Modbus\Src\porttimer.o
+.\build\RS485_HMI\MDK-ARM\startup_stm32f103xb.o -o .\build\RS485_HMI\RS485_HMI.axf

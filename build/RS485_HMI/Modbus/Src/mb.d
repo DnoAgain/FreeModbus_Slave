@@ -1,0 +1,9 @@
+.\build\RS485_HMI\Modbus\Src\mb.o: .\Modbus\Src\mb.c
+.\build\RS485_HMI\Modbus\Src\mb.o: Modbus/Inc/port.h
+.\build\RS485_HMI\Modbus\Src\mb.o: Modbus/Inc/mb.h
+.\build\RS485_HMI\Modbus\Src\mb.o: Modbus/Inc/mbport.h
+.\build\RS485_HMI\Modbus\Src\mb.o: Modbus/Inc/mbproto.h
+.\build\RS485_HMI\Modbus\Src\mb.o: Modbus/Inc/mbconfig.h
+.\build\RS485_HMI\Modbus\Src\mb.o: Modbus/Inc/mbframe.h
+.\build\RS485_HMI\Modbus\Src\mb.o: Modbus/Inc/mbfunc.h
+.\build\RS485_HMI\Modbus\Src\mb.o: Modbus/Inc/mbrtu.h

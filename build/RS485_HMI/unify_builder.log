@@ -1,0 +1,67 @@
+[2022-08-18 10:49:18]	[done]
+	build successfully !
+
+[2022-08-18 10:52:21]	compilation failed at : "d:\Work\stm32f1x\RS485_HMI\Modbus\Src\port.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+".\Modbus\Src\port.c", line 94: Error:  #20: identifier "usRegCoilsBuf" is undefined
+  					*pucRegBuffer++ = (uint8_t)(usRegCoilsBuf[iRegIndex] >> 8);  //???8?????????
+  					                            ^
+".\Modbus\Src\port.c", line 72: Warning:  #550-D: variable "usBitoffset"  was set but never used
+      unsigned short usBitoffset;
+                     ^
+".\Modbus\Src\port.c", line 150: Warning:  #186-D: pointless comparison of unsigned integer with zero
+      if((usAddress >= REG_DISCRETE_START) &&	((usAddress + usNDiscrete) <= (REG_DISCRETE_START + REG_DISCRETE_SIZE)))
+                    ^
+".\Modbus\Src\port.c", line 206: Warning:  #186-D: pointless comparison of unsigned integer with zero
+      if((usAddress >= REG_HOLDING_START) && ((usAddress+usNRegs) <= (REG_HOLDING_START + REG_HOLDING_NREGS)))
+                    ^
+".\Modbus\Src\port.c", line 260: Warning:  #186-D: pointless comparison of unsigned integer with zero
+      if( ( usAddress >= REG_INPUT_START ) && ( usAddress + usNRegs <= REG_INPUT_START + REG_INPUT_NREGS ) )
+                      ^
+.\Modbus\Src\port.c: 4 warnings, 1 error
+
+[2022-08-18 10:52:39]	[done]
+	build successfully !
+
+[2022-08-18 10:53:51]	[done]
+	build successfully !
+
+[2022-08-18 10:56:44]	[done]
+	build successfully !
+
+[2022-08-18 11:00:52]	[done]
+	build successfully !
+
+[2022-08-18 14:33:07]	compilation failed at : "d:\Work\stm32f1x\RS485_HMI\Modbus\Src\port.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+"Modbus/Inc/app.h", line 1: Error:  #37: the #endif for this directive is missing
+  #ifndef USER_APP
+   ^
+".\Modbus\Src\port.c", line 25: Warning:  #69-D: integer conversion resulted in truncation
+  UCHAR    ucSCoilBuf[S_COIL_NCOILS/8]={0x4233}                 ;
+                                        ^
+".\Modbus\Src\port.c", line 169: Warning:  #186-D: pointless comparison of unsigned integer with zero
+      if((usAddress >= REG_DISCRETE_START) &&	((usAddress + usNDiscrete) <= (REG_DISCRETE_START + REG_DISCRETE_SIZE)))
+                    ^
+".\Modbus\Src\port.c", line 225: Warning:  #186-D: pointless comparison of unsigned integer with zero
+      if((usAddress >= REG_HOLDING_START) && ((usAddress+usNRegs) <= (REG_HOLDING_START + REG_HOLDING_NREGS)))
+                    ^
+".\Modbus\Src\port.c", line 279: Warning:  #186-D: pointless comparison of unsigned integer with zero
+      if( ( usAddress >= REG_INPUT_START ) && ( usAddress + usNRegs <= REG_INPUT_START + REG_INPUT_NREGS ) )
+                      ^
+.\Modbus\Src\port.c: 4 warnings, 1 error
+
+[2022-08-18 14:33:37]	[done]
+	build successfully !
+
+[2022-08-18 14:38:01]	[done]
+	build successfully !
+
+[2022-08-18 14:47:35]	[done]
+	build successfully !
+
+[2022-08-18 15:02:02]	[done]
+	build successfully !
+

@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"rs485_hmi\startup_stm32f103xb.o"
+"rs485_hmi\main.o"
+"rs485_hmi\gpio.o"
+"rs485_hmi\usart.o"
+"rs485_hmi\stm32f1xx_it.o"
+"rs485_hmi\stm32f1xx_hal_msp.o"
+"rs485_hmi\stm32f1xx_hal_gpio_ex.o"
+"rs485_hmi\stm32f1xx_hal_tim.o"
+"rs485_hmi\stm32f1xx_hal_tim_ex.o"
+"rs485_hmi\stm32f1xx_hal_uart.o"
+"rs485_hmi\stm32f1xx_hal.o"
+"rs485_hmi\stm32f1xx_hal_rcc.o"
+"rs485_hmi\stm32f1xx_hal_rcc_ex.o"
+"rs485_hmi\stm32f1xx_hal_gpio.o"
+"rs485_hmi\stm32f1xx_hal_dma.o"
+"rs485_hmi\stm32f1xx_hal_cortex.o"
+"rs485_hmi\stm32f1xx_hal_pwr.o"
+"rs485_hmi\stm32f1xx_hal_flash.o"
+"rs485_hmi\stm32f1xx_hal_flash_ex.o"
+"rs485_hmi\stm32f1xx_hal_exti.o"
+"rs485_hmi\system_stm32f1xx.o"
+--strict --scatter "RS485_HMI\RS485_HMI.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "RS485_HMI.map" -o RS485_HMI\RS485_HMI.axf

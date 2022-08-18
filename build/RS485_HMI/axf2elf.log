@@ -1,0 +1,4 @@
+arm-none-eabi-objcopy --update-section ER_IROM1="d:\Work\stm32f1x\RS485_HMI\build\RS485_HMI\RS485_HMI.bin" "d:\Work\stm32f1x\RS485_HMI\build\RS485_HMI\RS485_HMI.axf" "d:\Work\stm32f1x\RS485_HMI\build\RS485_HMI\RS485_HMI.elf"
+
+arm-none-eabi-objcopy: d:\Work\stm32f1x\RS485_HMI\build\RS485_HMI\RS485_HMI.elf: warning: allocated section `RW_IRAM1' not in segment
+

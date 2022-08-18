@@ -1,0 +1,6 @@
+r
+halt
+loadfile "d:\Work\stm32f1x\RS485_HMI\build\RS485_HMI\RS485_HMI.hex"
+r
+go
+exit

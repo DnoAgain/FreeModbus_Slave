@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "type": "cortex-debug",
+            "request": "launch",
+            "name": "Cortex-Debug-Jlink",
+            "servertype": "jlink",
+            "interface": "swd",
+            "executable": "build\\RS485_HMI\\RS485_HMI.elf",
+            "runToEntryPoint": "main",
+            "device": "STM32F103C8"
+        }
+    ]
+}
